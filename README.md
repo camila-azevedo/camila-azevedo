@@ -2,13 +2,14 @@
 <h3>Tenho interesse em Engenharia de Requisitos, Testes e o papel de Product Owner </h3>
 
 ─ Atualmente estudo **Análise e Desenvolvimento de Sistemas** no CEUB, estou no 3º semestre
+
 ─ Nessa graduação, já estudei sobre **SCRUM, Banco de Dados, Modelagem e SQL, Engenharia de Software, Programação em Java, Requisitos, Lean Inception**
 ─ Sou graduada em **Ciência Política** e sou mestra em **Filosofia**
 
 
-🌷 ─ Contato **camila.azevedo@sempreceub.com** 
+─ Contato **camila.azevedo@sempreceub.com** 
 
-🌸 ─ Projeto de Interface no figma: https://www.figma.com/design/Ha00NUFRPlcZMjhhZ2bXCa/App-Cadastro-Despesa?node-id=0-1&t=cpu4hPZ83lT1y77W-1
+─ Projeto de Interface no figma: https://www.figma.com/design/Ha00NUFRPlcZMjhhZ2bXCa/App-Cadastro-Despesa?node-id=0-1&t=cpu4hPZ83lT1y77W-1
 
 
 <h3 align="left">Contato:</h3>
