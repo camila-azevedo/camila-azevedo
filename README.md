@@ -1,15 +1,12 @@
-<h1 align="center">🩰✨Bom dia, eu me chamo Camila Azevedo🎀✨</h1>
-<h3 align="center">⭒Tenho interesse por Engenharia de Requisitos⭒</h3>
+<h1 align="center"> Camila Azevedo</h1>
+<h3>⭒Tenho interesse por Engenharia de Requisitos⭒</h3>
 
-🦩 ─ Atualmente estudo **Análise e Desenvolvimento de Sistemas** no CEUB, estou no 3º semestre
+─ Atualmente estudo **Análise e Desenvolvimento de Sistemas** no CEUB, estou no 3º semestre
+─ Nessa graduação, já estudei sobre **SCRUM, Banco de Dados, Modelagem e SQL, Engenharia de Software, Programação em Java, Requisitos, Lean Inception**
+─ Sou graduada em **Ciência Política** e sou mestra em **Filosofia**
 
-🌸 ─ Nessa graduação, já estudei sobre **SCRUM, Banco de Dados, Modelagem e SQL, Engenharia de Software, Programação em Java, Requisitos, Lean Inception**
 
-🌺 ─ Sou graduada em **Ciência Política** e sou mestra em **Filosofia**
-
-✨ ─ Blog sobre Margaret Hamilton, realizado para a disciplina de Introdução à Computação [https://margarethamilton24ads.edublogs.org/](https://margarethamilton24ads.edublogs.org/)
-
-🌷 ─ Contato **camila.azevedo@sempreceub.com** ou **camila_fca@hotmail.com**
+🌷 ─ Contato **camila.azevedo@sempreceub.com** 
 
 🌸 ─ Projeto de Interface no figma: https://www.figma.com/design/Ha00NUFRPlcZMjhhZ2bXCa/App-Cadastro-Despesa?node-id=0-1&t=cpu4hPZ83lT1y77W-1
 
