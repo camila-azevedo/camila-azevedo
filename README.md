@@ -1,5 +1,5 @@
 <h1 align="center"> Camila Azevedo</h1>
-<h3>Tenho interesse em Engenharia de Requisitos, Testes e o papel de Product Owner </h3>
+<h3>Tenho interesse em Engenharia de Requisitos, Testes, papel de Product Owner e Segurança da Informação </h3>
 
 ─ Atualmente estudo **Análise e Desenvolvimento de Sistemas** no CEUB, estou no 3º semestre
 
