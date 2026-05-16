@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Porquinho em Inhumas</title>
+    <style>
+        /* Configurações Gerais e Fundo Temático */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffdae0; /* Rosa bebê */
+            /* Manchinhas de porco usando gradientes radiais */
+            background-image: 
+                radial-gradient(#e0a3b3 20%, transparent 20%),
+                radial-gradient(#e0a3b3 25%, transparent 25%),
+                radial-gradient(#e0a3b3 15%, transparent 15%);
+            background-size: 300px 300px;
+            background-position: 0 0, 150px 150px, 100px 250px;
+            color: #4a2c34;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.85);
+            text-align: center;
+            padding: 30px 20px;
+            border-bottom: 5px solid #ffb6c1;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #d15b74;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 1.2em;
+            color: #7a4b56;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção de Filtros/Categorias */
+        .secao-titulo {
+            text-align: center;
+            color: #d15b74;
+            font-size: 2em;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        /* Catálogo em Grid */
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        /* Card do Porquinho */
+        .card-porco {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease;
+            border: 3px solid #ffccd5;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-porco:hover {
+            transform: translateY(-50px);
+        }
+
+        /* Placeholder da foto do porco */
+        .foto-porco {
+            width: 100%;
+            height: 220px;
+            background-color: #ffeef1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Ícone de porquinho fofo estilizado em CSS para o placeholder */
+        .foto-porco::before {
+            content: "🐷";
+            font-size: 5rem;
+        }
+
+        /* Etiquetas de Venda ou Adoção */
+        .badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            letter-spacing: 1px;
+            color: white;
+        }
+
+        .badge.adocao {
+            background-color: #4caf50;
+        }
+
+        .badge.venda {
+            background-color: #ff9800;
+        }
+
+        /* Detalhes do Card */
+        .info-porco {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-porco h3 {
+            margin: 0 0 10px 0;
+            color: #d15b74;
+            font-size: 1.4em;
+        }
+
+        .info-porco p {
+            margin: 5px 0;
+            font-size: 0.95em;
+            color: #613d45;
+        }
+
+        .preco-ou-status {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #2e1d21;
+        }
+
+        .btn-contato {
+            display: block;
+            text-align: center;
+            background-color: #ff85a2;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 12px;
+            font-weight: bold;
+            transition: background 0.2s;
+            margin-top: auto;
+        }
+
+        .btn-contato:hover {
+            background-color: #f65c83;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-top: 50px;
+            border-top: 3px solid #ffccd5;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Porquinhos de Inhumas 🐷</h1>
+        <p>Encontre o seu novo amigo ou matriz na capital goiana dos mini-porcos!</p>
+    </header>
+
+    <div class="container">
+        
+        <div style="text-align: center;">
+            <span class="secao-titulo">Nossos Porquinhos Disponíveis</span>
+        </div>
+
+        <div class="catalogo">
+
+            <div class="card-porco">
+                <div class="foto-porco">
+                    <span class="badge adocao">Adoção</span>
+                </div>
+                <div class="info-porco">
+                    <h3>Baconzinho</h3>
+                    <p><strong>Idade:</strong> 4 meses</p>
+                    <p><strong>Raça:</strong> Mini Pig</p>
+                    <p><strong>Descrição:</strong> Muito dócil, castrado, adora carinho na barriga e se dá bem com cães.</p>
+                    <div class="preco-ou-status">Taxa: Isento (Adoção Responsável)</div>
+                    <a href="#" class="btn-contato">Quero Adotar</a>
+                </div>
+            </div>
+
+            <div class="card-porco">
+                <div class="foto-porco">
+                    <span class="badge venda">Venda</span>
+                </div>
+                <div class="info-porco">
+                    <h3>Pérola</h3>
+                    <p><strong>Idade:</strong> 2 meses (Filhote)</p>
+                    <p><strong>Raça:</strong> Micro Pig Linha Rosa</p>
+                    <p><strong>Descrição:</strong> Matriz selecionada, tamanho mini legítimo. Ideal para ambiente interno.</p>
+                    <div class="preco-ou-status">R$ 1.200,00</div>
+                    <a href="#" class="btn-contato">Gostei, quero comprar</a>
+                </div>
+            </div>
+
+            <div class="card-porco">
+                <div class="foto-porco">
+                    <span class="badge adocao">Adoção</span>
+                </div>
+                <div class="info-porco">
+                    <h3>Chispa</h3>
+                    <p><strong>Idade:</strong> 1 ano</p>
+                    <p><strong>Raça:</strong> Porco Comum de Chácara</p>
+                    <p><strong>Descrição:</strong> Resgatada de maus-tratos. Precisa de espaço (sítio ou chácara em Inhumas).</p>
+                    <div class="preco-ou-status">Taxa: Isento</div>
+                    <a href="#" class="btn-contato">Quero Adotar</a>
+                </div>
+            </div>
+
+            <div class="card-porco">
+                <div class="foto-porco">
+                    <span class="badge venda">Venda</span>
+                </div>
+                <div class="info-porco">
+                    <h3>Floquinho</h3>
+                    <p><strong>Idade:</strong> 3 meses</p>
+                    <p><strong>Raça:</strong> Mini Pig Pintado</p>
+                    <p><strong>Descrição:</strong> Branco com manchinhas pretas. Já vermifugado e comendo ração seca.</p>
+                    <div class="preco-ou-status">R$ 950,00</div>
+                    <a href="#" class="btn-contato">Gostei, quero comprar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Catálogo de Porcos Inhumas-GO. Dedicado à posse responsável.</p>
+    </footer>
+
+</body>
+</html>
